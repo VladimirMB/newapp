@@ -1,0 +1,192 @@
+<?php
+$categories = array(
+		0 => array (
+			"category_id" => 1,
+			"category_name" => 'Category1',
+			"category_id_name" => 'cat1'
+		),
+		1 => array (
+			"category_id" => 2,
+			"category_name" => 'Category2',
+			"category_id_name" => 'cat2'
+		),
+		2 => array (
+			"category_id" => 3,
+			"category_name" => 'Category3',
+			"category_id_name" => 'cat3'
+		),
+		3 => array (
+			"category_id" => 4,
+			"category_name" => 'Category4',
+			"category_id_name" => 'cat4'
+		),
+		4 => array (
+			"category_id" => 5,
+			"category_name" => 'Category5',
+			"category_id_name" => 'cat5'
+		),
+	);
+
+$products = array(
+		0 => array (
+			"product_id" => 1,
+			"category_id" => 1,
+			"product_name" => 'Product1',
+			"product_price" => 280,
+			"product_desc" => 'Product1 description',
+			"dodatak_type" => 2,
+		),
+		1 => array (
+			"product_id" => 2,
+			"category_id" => 1,
+			"product_name" => 'Product2',
+			"product_price" => 220,
+			"product_desc" => 'Product2 description',
+			"dodatak_type" => 2,
+		),
+		2 => array (
+			"product_id" => 3,
+			"category_id" => 1,
+			"product_name" => 'Product3',
+			"product_price" => 220,
+			"product_desc" => 'Product3 description',
+			"dodatak_type" => 2,
+		),
+		3 => array (
+			"product_id" => 4,
+			"category_id" => 1,
+			"product_name" => 'Product4',
+			"product_price" => 170,
+			"product_desc" => 'Product4 description',
+			"dodatak_type" => 2,
+		),
+		4 => array (
+			"product_id" => 5,
+			"category_id" => 1,
+			"product_name" => 'Product5',
+			"product_price" => 270,
+			"product_desc" => 'Product5 description',
+			"dodatak_type" => 2,
+		),
+		5 => array (
+			"product_id" => 6,
+			"category_id" => 1,
+			"product_name" => 'Product6',
+			"product_price" => 300,
+			"product_desc" => 'Product6 description',
+			"dodatak_type" => 2, 
+		),
+		6 => array (
+			"product_id" => 7,
+			"category_id" => 1,
+			"product_name" => 'Product7',
+			"product_price" => 400,
+			"product_desc" => 'Product7 description',
+			"dodatak_type" => 2,
+		),
+		7 => array (
+			"product_id" => 8,
+			"category_id" => 1,
+			"product_name" => 'Product8',
+			"product_price" => 95,
+			"product_desc" => 'Product8 description',
+			"dodatak_type" => 1,
+		),
+		8 => array (
+			"product_id" => 9,
+			"category_id" => 2,
+			"product_name" => 'Product9',
+			"product_price" => 220,
+			"product_desc" => 'Product9 description',
+			"dodatak_type" => 2,
+		),
+		9 => array (
+			"product_id" => 10,
+			"category_id" => 2,
+			"product_name" => 'Product10',
+			"product_price" => 200,
+			"product_desc" => 'Product10 description',
+			"dodatak_type" => 4,
+		),
+		10 => array (
+			"product_id" => 11,
+			"category_id" => 3,
+			"product_name" => 'Product11',
+			"product_price" => 150,
+			"product_desc" => 'Product11 description',
+			"dodatak_type" => 4,
+		),
+		11 => array (
+			"product_id" => 12,
+			"category_id" => 3,
+			"product_name" => 'Product12',
+			"product_price" => 170,
+			"product_desc" => 'Product12 description',
+			"dodatak_type" => 4,   
+		),
+		12 => array (
+			"product_id" => 13,
+			"category_id" => 3,
+			"product_name" => 'Product13',
+			"product_price" => 200,
+			"product_desc" => 'Product13 description',
+			"dodatak_type" => 2, 
+		),
+		13 => array (
+			"product_id" => 14,
+			"category_id" => 3,
+			"product_name" => 'Product14',
+			"product_price" => 220,
+			"product_desc" => 'Product14 description',
+			"dodatak_type" => 3,  
+		),
+		14 => array (
+			"product_id" => 15,
+			"category_id" => 3,
+			"product_name" => 'Product15',
+			"product_price" => 250,
+			"product_desc" => 'Product15 description',
+			"dodatak_type" => 4,
+		),
+		15 => array (
+			"product_id" => 16,
+			"category_id" => 3,
+			"product_name" => 'Product16',
+			"product_price" => 270,
+			"product_desc" => 'Product16 description',
+			"dodatak_type" => 4,
+		),
+		16 => array (
+			"product_id" => 17,
+			"category_id" => 4,
+			"product_name" => 'Product17',
+			"product_price" => 70,
+			"product_desc" => 'Product17 description',
+			"dodatak_type" => 1,  
+		),
+		17 => array (
+			"product_id" => 18,
+			"category_id" => 4,
+			"product_name" => 'Product18',
+			"product_price" => 70,
+			"product_desc" => 'Product18 description',
+			"dodatak_type" => 1,   
+		),
+		18 => array (
+			"product_id" => 19,
+			"category_id" => 4,
+			"product_name" => 'Product19',
+			"product_price" => 70,
+			"product_desc" => 'Product19 description',
+			"dodatak_type" => 1,
+		),
+		19 => array (
+			"product_id" => 20,
+			"category_id" => 5,
+			"product_name" => 'Product20',
+			"product_price" => 210,
+			"product_desc" => 'Product20 description',
+			"dodatak_type" => 4,
+		),
+	);
+?>

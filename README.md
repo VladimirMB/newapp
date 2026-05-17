@@ -1,1 +1,2 @@
-# newapp
+# catsproducts
+Sorting products by its category
